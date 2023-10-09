@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Lato&family=Pacifico&family=Roboto:ital,wght@0,400;1,500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+   <h2>CRUD APP WITH FIREBASE</h2><hr>
+    <div class="form">
+        RollNo: <input type="text" name="rollno" id="rollno"><br><br>
+        Name:   <input type="text" name="name"   id="name"><br><br>
+        Gender: <input type="text" name="gender" id="gender"><br><br>
+       Address:<input type="text" name="address" id="address"><br><br>
+    </div>
+    <div id="bttn">
+        <button id="create">Create</button>
+        <button id="read">Read</button>
+        <button id="update">Update</button>
+        <button id="delete">Delete</button>
+    </div>
+
+
+<h4>Made by Safia <img id="emoji" width="33px" src="images/my icon.gif" alt=""></h4>
+
+</div>
+
+    
+
+
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+<script src="Config.js"></script>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
